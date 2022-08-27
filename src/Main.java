@@ -65,7 +65,7 @@ class Timer_5 extends Thread {
             while (true) {
                 if (Main.count % 5 == 0) {
                     if (Main.count != 0) {
-                        System.out.print("  прошло еще 5 секунд " + Thread.currentThread().getName());
+                        System.out.print(" прошло еще 5 секунд " + Thread.currentThread().getName());
                         System.out.println();
                     }
                     try {
